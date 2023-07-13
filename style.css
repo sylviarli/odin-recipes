@@ -1,0 +1,28 @@
+* {
+    font-family: "Arial", "Helvetica", sans-serif;
+    background-color: #f0b471;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 80px;
+    color: #023047;
+    background-image:url(https://hips.hearstapps.com/hmg-prod/images/small-kitchen-ideas-hbx080115mcbournie13-1623433237.jpg?crop=0.760xw:0.570xh;0.179xw,0.361xh&resize=1200:*);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: auto;
+    background-position: center;
+}
+
+ul {
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 20px;
+    line-height: 2.5;
+}
+
+a {
+    color: #023047;
+}
