@@ -12,6 +12,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
+    text-shadow: -2px -2px 0 #FFFFFF, 2px -2px 0 #FFFFFF, -2px 2px 0 #FFFFFF, 2px 2px 0 #FFFFFF;
     width: auto;
     background-position: center;
 }
