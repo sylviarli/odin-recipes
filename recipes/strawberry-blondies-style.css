@@ -1,0 +1,49 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+h1 {
+    background-image: url(https://theviewfromgreatisland.com/wp-content/uploads/2019/03/strawberry-lemon-blondies-8503051-March-27-2019.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    font-size: 80px;
+    padding-top: 1rem;
+    color: rgb(140, 46, 46);
+    text-shadow: -2px -2px 0 #FFFFFF, 2px -2px 0 #FFFFFF, -2px 2px 0 #FFFFFF, 2px 2px 0 #FFFFFF;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(140, 46, 46);
+}
+
+p {
+    text-align: center;
+}
+
+b{
+    font-size: 25px;
+}
+
+.two-columns {
+    display: flex;
+    column-gap: 1rem;
+}
+
+@media (max-width:600px) {
+    .responsive-two-columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.ingredients {
+    width:25%;
+}
+
+.steps {
+    width:75%;
+}
